@@ -1,0 +1,70 @@
+/* Dark Futuristic Theme */
+:root {
+    --bg-color: #0d0d0d;
+    --text-color: #e6e6e6;
+    --accent-color: #0ff;
+    --secondary-accent: #ff00ff;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, var(--accent-color), var(--secondary-accent));
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 0 5px var(--accent-color);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center; /* Centers the grid */
+    gap: 20px;
+}
+
+article {
+    padding: 20px;
+    max-width: 800px;
+    margin: 10;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0px;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: var(--secondary-accent);
+    text-shadow: 0 0 5px var(--secondary-accent);
+}
+
+button {
+    background: var(--accent-color);
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: var(--secondary-accent);
+    box-shadow: 0 0 10px var(--secondary-accent);
+}
+
+img {
+    width: 100%; /* Makes the image width fill its container */
+    height: auto; /* Adjusts the height to keep the aspect ratio */
+}
