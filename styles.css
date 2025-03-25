@@ -32,9 +32,11 @@ header {
 article {
     padding: 20px;
     max-width: 800px;
-    margin: 10;
+    margin-left: auto;
+    margin-right: auto;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 0px;
+    
 }
 
 a {
