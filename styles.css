@@ -29,10 +29,11 @@ header {
 }
 
 article {
-    padding: 50px;
+    padding: 20px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 0px;
     border-color: #0ff;
