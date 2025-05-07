@@ -25,11 +25,11 @@ header {
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: center; /* Centers the grid */
-    gap: 50px;
+    gap: 20px;
 }
 
 article {
-    padding: 20px;
+    padding: 50px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
